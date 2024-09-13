@@ -1,0 +1,12 @@
+# vim: filetype=sh
+alias cac="cd $HOME/.cache && ls -A" \
+	cf="cd $HOME/.config && ls -A" \
+	D="cd $HOME/downloads && ls -A" \
+	d="cd $HOME/dox && ls -A" \
+	h="cd $HOME/ && ls -A" \
+	bf="$EDITOR $HOME/.config/shell/bm-files" \
+	bd="$EDITOR $HOME/.config/shell/bm-dirs" \
+	cfa="$EDITOR $HOME/.config/shell/aliasrc" \
+	cfp="$EDITOR $HOME/.config/shell/profile" \
+	cfv="$EDITOR $HOME/.config/nvim/init.vim" \
+	cfz="$EDITOR $HOME/.config/zsh/.zshrc"

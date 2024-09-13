@@ -1,0 +1,28 @@
+---
+nvm_version: 20
+base_packages:
+  - wget
+  - git
+  - zsh
+  - qemu-guest-agent
+  - go
+  - luarocks
+  - pyenv
+
+services_list:
+  - qemu-guest-agent
+
+yay_packages:
+  - git
+  - lazygit
+  - zoxide
+  - yarn
+  - ripgrep
+  - fd
+  - yarn
+  - ttf-jetbrains-mono-ner
+  - lldb
+  - make
+  - unzip
+  - neovim
+  - python-pynvim

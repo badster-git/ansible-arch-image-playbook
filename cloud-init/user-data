@@ -1,0 +1,10 @@
+#cloud-config
+hostname: test-demo
+manage_etc_hosts: true
+user: test-demo
+chpasswd:
+  list:
+    - test-demo:arch
+users:
+  - default
+package_upgrade: false
